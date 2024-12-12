@@ -88,7 +88,7 @@ public class ListPractice {
         // checks if 'itr2' in aespaSongs has a previous element in "backward" direction ...
         while(itr2.hasPrevious()){
             // if so print out element & move cursor "backward" towards index 0
-            System.out.println(itr2.next());
+            System.out.println(itr2.previous());
         }
     }
 }
